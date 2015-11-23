@@ -35,6 +35,7 @@ Partial Class PlaylistApp
         Me.Button1 = New System.Windows.Forms.Button()
         Me.btnDelete = New System.Windows.Forms.Button()
         Me.btnRank = New System.Windows.Forms.Button()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'btnAllPlaylist
@@ -76,7 +77,7 @@ Partial Class PlaylistApp
         'btnEditPlaylist
         '
         Me.btnEditPlaylist.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnEditPlaylist.Location = New System.Drawing.Point(251, 464)
+        Me.btnEditPlaylist.Location = New System.Drawing.Point(242, 464)
         Me.btnEditPlaylist.Name = "btnEditPlaylist"
         Me.btnEditPlaylist.Size = New System.Drawing.Size(88, 46)
         Me.btnEditPlaylist.TabIndex = 4
@@ -149,30 +150,42 @@ Partial Class PlaylistApp
         '
         Me.btnDelete.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnDelete.ForeColor = System.Drawing.Color.Red
-        Me.btnDelete.Location = New System.Drawing.Point(418, 464)
+        Me.btnDelete.Location = New System.Drawing.Point(402, 464)
         Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(57, 46)
+        Me.btnDelete.Size = New System.Drawing.Size(73, 46)
         Me.btnDelete.TabIndex = 11
-        Me.btnDelete.Text = "Delete"
+        Me.btnDelete.Text = "Remove"
         Me.btnDelete.UseVisualStyleBackColor = True
         '
         'btnRank
         '
         Me.btnRank.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnRank.ForeColor = System.Drawing.Color.Blue
-        Me.btnRank.Location = New System.Drawing.Point(355, 464)
+        Me.btnRank.Location = New System.Drawing.Point(336, 464)
         Me.btnRank.Name = "btnRank"
-        Me.btnRank.Size = New System.Drawing.Size(57, 46)
+        Me.btnRank.Size = New System.Drawing.Size(60, 46)
         Me.btnRank.TabIndex = 12
-        Me.btnRank.Text = "Rank"
+        Me.btnRank.Text = "Rate"
         Me.btnRank.UseVisualStyleBackColor = True
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.OrangeRed
+        Me.Label4.Location = New System.Drawing.Point(3, 519)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(187, 13)
+        Me.Label4.TabIndex = 14
+        Me.Label4.Text = "Designed by Angelo and Freddy"
         '
         'PlaylistApp
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
-        Me.ClientSize = New System.Drawing.Size(498, 522)
+        Me.ClientSize = New System.Drawing.Size(498, 535)
+        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.btnRank)
         Me.Controls.Add(Me.btnDelete)
         Me.Controls.Add(Me.Button1)
@@ -187,6 +200,8 @@ Partial Class PlaylistApp
         Me.Controls.Add(Me.lstPlaylistlst)
         Me.Controls.Add(Me.btnAllPlaylist)
         Me.MaximizeBox = False
+        Me.MaximumSize = New System.Drawing.Size(514, 573)
+        Me.MinimumSize = New System.Drawing.Size(514, 573)
         Me.Name = "PlaylistApp"
         Me.Text = "PlaylistApp"
         Me.ResumeLayout(False)
@@ -207,4 +222,5 @@ Partial Class PlaylistApp
     Friend WithEvents Button1 As Button
     Friend WithEvents btnDelete As Button
     Friend WithEvents btnRank As Button
+    Friend WithEvents Label4 As Label
 End Class

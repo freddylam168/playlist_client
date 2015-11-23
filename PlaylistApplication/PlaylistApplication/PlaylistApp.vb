@@ -14,4 +14,16 @@
     Private Sub btnAddPlaylist_Click(sender As Object, e As EventArgs) Handles btnAddPlaylist.Click
         AddPlaylist.Show()
     End Sub
+
+    Private Sub btnEditPlaylist_Click(sender As Object, e As EventArgs) Handles btnEditPlaylist.Click
+        EditPlaylist.Show()
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Player.Show()
+    End Sub
+
+    Private Sub btnRank_Click(sender As Object, e As EventArgs) Handles btnRank.Click
+        Rate.Show()
+    End Sub
 End Class

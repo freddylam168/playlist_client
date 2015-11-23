@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class SearchPlaylist
+Partial Class Rate
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -28,8 +28,8 @@ Partial Class SearchPlaylist
         Me.Label2 = New System.Windows.Forms.Label()
         Me.lstPlaylistlst = New System.Windows.Forms.ListBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.lstTrack = New System.Windows.Forms.ListBox()
-        Me.btnPlay = New System.Windows.Forms.Button()
+        Me.txtRate = New System.Windows.Forms.TextBox()
+        Me.btnRate = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
@@ -41,24 +41,24 @@ Partial Class SearchPlaylist
         Me.Label1.Location = New System.Drawing.Point(12, 20)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(109, 17)
-        Me.Label1.TabIndex = 1
+        Me.Label1.TabIndex = 2
         Me.Label1.Text = "Enter Playlist:"
         '
         'txtPlaylist
         '
         Me.txtPlaylist.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPlaylist.Location = New System.Drawing.Point(139, 17)
+        Me.txtPlaylist.Location = New System.Drawing.Point(118, 14)
         Me.txtPlaylist.Name = "txtPlaylist"
         Me.txtPlaylist.Size = New System.Drawing.Size(253, 23)
-        Me.txtPlaylist.TabIndex = 2
+        Me.txtPlaylist.TabIndex = 3
         '
         'btnPlaylist
         '
         Me.btnPlaylist.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnPlaylist.Location = New System.Drawing.Point(398, 12)
+        Me.btnPlaylist.Location = New System.Drawing.Point(377, 12)
         Me.btnPlaylist.Name = "btnPlaylist"
         Me.btnPlaylist.Size = New System.Drawing.Size(88, 33)
-        Me.btnPlaylist.TabIndex = 3
+        Me.btnPlaylist.TabIndex = 4
         Me.btnPlaylist.Text = "Search"
         Me.btnPlaylist.UseVisualStyleBackColor = True
         '
@@ -70,7 +70,7 @@ Partial Class SearchPlaylist
         Me.Label2.Location = New System.Drawing.Point(12, 58)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(60, 17)
-        Me.Label2.TabIndex = 6
+        Me.Label2.TabIndex = 7
         Me.Label2.Text = "Playlist"
         '
         'lstPlaylistlst
@@ -79,57 +79,57 @@ Partial Class SearchPlaylist
         Me.lstPlaylistlst.Location = New System.Drawing.Point(15, 78)
         Me.lstPlaylistlst.Name = "lstPlaylistlst"
         Me.lstPlaylistlst.Size = New System.Drawing.Size(463, 160)
-        Me.lstPlaylistlst.TabIndex = 7
+        Me.lstPlaylistlst.TabIndex = 8
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(12, 251)
+        Me.Label3.Location = New System.Drawing.Point(183, 260)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(49, 17)
-        Me.Label3.TabIndex = 8
-        Me.Label3.Text = "Track"
+        Me.Label3.Size = New System.Drawing.Size(153, 17)
+        Me.Label3.TabIndex = 9
+        Me.Label3.Text = "Enter Score(1 to 5):"
         '
-        'lstTrack
+        'txtRate
         '
-        Me.lstTrack.FormattingEnabled = True
-        Me.lstTrack.Location = New System.Drawing.Point(15, 271)
-        Me.lstTrack.Name = "lstTrack"
-        Me.lstTrack.Size = New System.Drawing.Size(463, 160)
-        Me.lstTrack.TabIndex = 9
+        Me.txtRate.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRate.Location = New System.Drawing.Point(342, 257)
+        Me.txtRate.Name = "txtRate"
+        Me.txtRate.Size = New System.Drawing.Size(29, 23)
+        Me.txtRate.TabIndex = 10
         '
-        'btnPlay
+        'btnRate
         '
-        Me.btnPlay.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnPlay.Location = New System.Drawing.Point(15, 448)
-        Me.btnPlay.Name = "btnPlay"
-        Me.btnPlay.Size = New System.Drawing.Size(88, 33)
-        Me.btnPlay.TabIndex = 10
-        Me.btnPlay.Text = "Play"
-        Me.btnPlay.UseVisualStyleBackColor = True
+        Me.btnRate.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnRate.Location = New System.Drawing.Point(377, 252)
+        Me.btnRate.Name = "btnRate"
+        Me.btnRate.Size = New System.Drawing.Size(88, 33)
+        Me.btnRate.TabIndex = 11
+        Me.btnRate.Text = "Rate"
+        Me.btnRate.UseVisualStyleBackColor = True
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.OrangeRed
-        Me.Label4.Location = New System.Drawing.Point(3, 489)
+        Me.Label4.Location = New System.Drawing.Point(3, 299)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(187, 13)
-        Me.Label4.TabIndex = 13
+        Me.Label4.TabIndex = 12
         Me.Label4.Text = "Designed by Angelo and Freddy"
         '
-        'SearchPlaylist
+        'Rate
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
-        Me.ClientSize = New System.Drawing.Size(498, 505)
+        Me.ClientSize = New System.Drawing.Size(492, 315)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.btnPlay)
-        Me.Controls.Add(Me.lstTrack)
+        Me.Controls.Add(Me.btnRate)
+        Me.Controls.Add(Me.txtRate)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.lstPlaylistlst)
         Me.Controls.Add(Me.Label2)
@@ -137,10 +137,10 @@ Partial Class SearchPlaylist
         Me.Controls.Add(Me.txtPlaylist)
         Me.Controls.Add(Me.Label1)
         Me.MaximizeBox = False
-        Me.MaximumSize = New System.Drawing.Size(514, 543)
-        Me.MinimumSize = New System.Drawing.Size(514, 543)
-        Me.Name = "SearchPlaylist"
-        Me.Text = "Search Playlist"
+        Me.MaximumSize = New System.Drawing.Size(508, 353)
+        Me.MinimumSize = New System.Drawing.Size(508, 353)
+        Me.Name = "Rate"
+        Me.Text = "Rate"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -152,7 +152,7 @@ Partial Class SearchPlaylist
     Friend WithEvents Label2 As Label
     Friend WithEvents lstPlaylistlst As ListBox
     Friend WithEvents Label3 As Label
-    Friend WithEvents lstTrack As ListBox
-    Friend WithEvents btnPlay As Button
+    Friend WithEvents txtRate As TextBox
+    Friend WithEvents btnRate As Button
     Friend WithEvents Label4 As Label
 End Class

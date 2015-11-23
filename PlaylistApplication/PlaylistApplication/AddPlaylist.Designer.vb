@@ -33,6 +33,7 @@ Partial Class AddPlaylist
         Me.txtAddLocation = New System.Windows.Forms.TextBox()
         Me.txtAddDuration = New System.Windows.Forms.TextBox()
         Me.btnAddNewPlaylist = New System.Windows.Forms.Button()
+        Me.Label6 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -140,12 +141,24 @@ Partial Class AddPlaylist
         Me.btnAddNewPlaylist.Text = "Add"
         Me.btnAddNewPlaylist.UseVisualStyleBackColor = True
         '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.OrangeRed
+        Me.Label6.Location = New System.Drawing.Point(3, 208)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(187, 13)
+        Me.Label6.TabIndex = 14
+        Me.Label6.Text = "Designed by Angelo and Freddy"
+        '
         'AddPlaylist
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
-        Me.ClientSize = New System.Drawing.Size(498, 215)
+        Me.ClientSize = New System.Drawing.Size(498, 224)
+        Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.btnAddNewPlaylist)
         Me.Controls.Add(Me.txtAddDuration)
         Me.Controls.Add(Me.txtAddLocation)
@@ -158,6 +171,8 @@ Partial Class AddPlaylist
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.MaximizeBox = False
+        Me.MaximumSize = New System.Drawing.Size(514, 262)
+        Me.MinimumSize = New System.Drawing.Size(514, 262)
         Me.Name = "AddPlaylist"
         Me.Text = "Add Playlist"
         Me.ResumeLayout(False)
@@ -176,4 +191,5 @@ Partial Class AddPlaylist
     Friend WithEvents txtAddLocation As TextBox
     Friend WithEvents txtAddDuration As TextBox
     Friend WithEvents btnAddNewPlaylist As Button
+    Friend WithEvents Label6 As Label
 End Class

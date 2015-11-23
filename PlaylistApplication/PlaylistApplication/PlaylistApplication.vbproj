@@ -75,6 +75,12 @@
     <Compile Include="AddPlaylist.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="EditPlaylist.Designer.vb">
+      <DependentUpon>EditPlaylist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditPlaylist.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Login.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +115,12 @@
     <Compile Include="PlaylistApp.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Rate.Designer.vb">
+      <DependentUpon>Rate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rate.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="SearchTrack.Designer.vb">
       <DependentUpon>SearchTrack.vb</DependentUpon>
     </Compile>
@@ -132,6 +144,9 @@
     <EmbeddedResource Include="AddPlaylist.resx">
       <DependentUpon>AddPlaylist.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EditPlaylist.resx">
+      <DependentUpon>EditPlaylist.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
     </EmbeddedResource>
@@ -146,6 +161,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PlaylistApp.resx">
       <DependentUpon>PlaylistApp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rate.resx">
+      <DependentUpon>Rate.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SearchPlaylist.resx">
       <DependentUpon>SearchPlaylist.vb</DependentUpon>

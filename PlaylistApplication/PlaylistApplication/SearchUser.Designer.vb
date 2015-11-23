@@ -30,6 +30,7 @@ Partial Class SearchUser
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.btnPlay = New System.Windows.Forms.Button()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -109,12 +110,24 @@ Partial Class SearchUser
         Me.btnPlay.Text = "Play"
         Me.btnPlay.UseVisualStyleBackColor = True
         '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.OrangeRed
+        Me.Label4.Location = New System.Drawing.Point(3, 490)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(187, 13)
+        Me.Label4.TabIndex = 14
+        Me.Label4.Text = "Designed by Angelo and Freddy"
+        '
         'SearchUser
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
-        Me.ClientSize = New System.Drawing.Size(498, 493)
+        Me.ClientSize = New System.Drawing.Size(498, 506)
+        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.btnPlay)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -124,6 +137,8 @@ Partial Class SearchUser
         Me.Controls.Add(Me.txtUsername)
         Me.Controls.Add(Me.Label1)
         Me.MaximizeBox = False
+        Me.MaximumSize = New System.Drawing.Size(514, 544)
+        Me.MinimumSize = New System.Drawing.Size(514, 544)
         Me.Name = "SearchUser"
         Me.Text = "Search User"
         Me.ResumeLayout(False)
@@ -139,4 +154,5 @@ Partial Class SearchUser
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents btnPlay As Button
+    Friend WithEvents Label4 As Label
 End Class
