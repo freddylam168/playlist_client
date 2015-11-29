@@ -174,7 +174,7 @@ Partial Class AddPlaylist
         Me.MaximumSize = New System.Drawing.Size(514, 262)
         Me.MinimumSize = New System.Drawing.Size(514, 262)
         Me.Name = "AddPlaylist"
-        Me.Text = "Add Playlist"
+        Me.Text = "Add New Playlist"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
